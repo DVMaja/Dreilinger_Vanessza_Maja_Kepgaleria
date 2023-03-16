@@ -1,0 +1,34 @@
+main, section, div {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+main {
+    max-width: 80%;
+    margin: auto;   
+}
+section{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    gap: 10px;  
+}
+.bal, .jobb {
+    align-self: stretch;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.nagykep {
+    align-self: stretch;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+article {    
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    gap: 10px
+
+}
